@@ -12,5 +12,8 @@ public class Main {
         robot_one.attack();
         robot_two.attack();
         robot_three.attack();
+
+        Attacker wolf = new Werewolf("Oz", 35);
+        wolf.attack();
     }
 }
