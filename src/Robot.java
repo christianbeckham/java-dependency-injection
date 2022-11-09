@@ -3,8 +3,8 @@ public class Robot {
     public String name;
     public Weapon weapon;
 
-    public Robot(Weapon weapon) {
-        this.name = "Optimus Prime";
+    public Robot(String name, Weapon weapon) {
+        this.name = name;
         this.weapon = weapon;
     }
 
