@@ -1,4 +1,4 @@
-public class Robot {
+public class Robot implements Attacker {
 
     public String name;
     public Weapon weapon;
