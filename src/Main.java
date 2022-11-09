@@ -1,11 +1,16 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
 
-//        Weapon sword = new Weapon("Sword", 50);
-        Weapon axe = new Weapon("axe", 80);
-        Robot robot_one = new Robot(axe);
-        System.out.println(robot_one.name);
+        Blaster blaster = new Blaster();
+        Sword sword = new Sword();
+        Axe axe = new Axe();
+
+        Robot robot_one = new Robot("Optimus Prime", blaster);
+        Robot robot_two = new Robot("Megatron", sword);
+        Robot robot_three = new Robot("Bumblebee", axe);
+
         robot_one.attack();
+        robot_two.attack();
+        robot_three.attack();
     }
 }
